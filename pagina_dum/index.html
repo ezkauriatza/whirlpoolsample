@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Calidad de refrigeradores</title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;900&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    
+</head>    
+    
+    
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="images/image.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="descriptivo.html">DASHBOAR DESCRIPTIVO</a></li>
+                    <li><a href="tendencias.html">DASHBOARD TENDENCIAS</a></li>
+                    <li><a href="resultados.html">RESULTADOS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+            
+<div class="text-box">
+    <h1>Refrigeradores Whirlpool</h1>
+    <p>El control de temperatura es clave en el proceso de calidad, <br> para mantener los mejores estandares de la industria.
+    </p>
+    <a href="" class="hero-btn">¿Cómo podemos medirlo?</a>
+</div>
+	
+</section>
+    
+ 
+    
+<!-------------Situacion---------->
+    
+<section class="situacion">
+    <h1>Situación Problema</h1>
+    <p>El proyecto busca analizar el comportamiento de las temperaturas de las refrigeradores en 6 sensores.</p>
+    
+    <div class="row">
+        <div class="situacion-col">
+            <h3>Contexto</h3>
+            <p>En esta parte del slide se iniciará dando contexto de la situación problema del socio formador, haciendo hincapié en la presentación del reto realizada durante la primera etapa de la concentración “Objetivos del negocio y evaluación de la situación actual. </p>  
+        </div>
+        <div class="situacion-col">
+            <h3>Descripción</h3>
+            <p>Se van a resumir los apartados enfocados en expresar lo que busca el socio formado, con la descripción de esto, siendo mencionado el caso de su búsqueda de de tener un seguimiento frecuente al control de calidad por medio de las los resultados registrados de las pruebas que se realizan casi semanalmente en sus refrigeradores para el control tanto de temperatura como de energía consumida.</p>  
+        </div>
+        <div class="situacion-col">
+            <h3>Seguimiento de control</h3>
+            <p>Se plantea de forma superficial el hecho de este seguimiento de los controles de calidad previamente mencionados  se debe principalmente para buscar la satisfacción de los clientes evitándose errores a que se señaló el socio formador pueden llegar a suceder a sus consumidores y cumplir con estándares de la industria.</p>  
+        </div>
+    </div>
+    
+    
+</section>
+    
+    
+<!-------------Malfunciones------------->
+    
+<section class="malfunciones">
+    <h3>¿Qué queremos prevenir?</h3>
+    <p>El óptimo funcionamiento de los refrigeradores evitan contratiempos tanto a consumidores como a Whirlpool.</p>
+    
+    <div class="row">
+        <div class="malfunciones-col">
+            <img src="images/refri_mal.jpg">
+            <div class="layer">
+                <h3>MALA DISTRIBUCIÓN DE TEMPERATURAS</h3>
+                <p>Puede ocasionar que alimentos no se conserven como deberían.</p>
+            </div>
+        </div>
+        <div class="malfunciones-col">
+            <img src="images/congelador.jpg">
+            <div class="layer">
+                <h3>OFRECER PRODUCTO DE BAJA CALIDAD</h3>
+                <p>Al ser líder del mercado, se espera que los productos sean de la mejor calidad.</p>
+            </div>
+        </div>
+        <div class="malfunciones-col">
+            <img src="images/congelador.jpg">
+            <div class="layer">
+                <h3>SANCIONES O MULTAS</h3>
+                <p>Incumplir las normas establecidas resultaría en gastos de recursos para la empresa.</p>
+            </div>
+        </div>
+    </div>
+</section>
+    
+    
+<!---------------estandares  prueba-------->
+
+<section class="prueba">
+    <h3>Estándares de Temperatura</h3>
+    <p>Para evitar lo anterior, se deben mantener rangos de temperatura óptimos. A continuación, se muestran <br> los rangos aceptados dentro de Whirlpool.</p>
+    
+    <div class="prueba-row">
+        <div class="prueba-col">
+            <img src="images/refri_cerrado.png">
+            <div class="prueba-layer">
+                <img src="images/refri_abierto.png">
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+<!---------------comportamiento---------------->
+
+<section class="comportamiento">
+    
+    <div class="comportamineto-col" >
+        <div class="comportamiento-col2">
+            <h7>¿Dónde esta posicionado Whirlpool?</h7><p>Haz click sobre alguno de los siguientes botones para observar el comportamiento de temperaturas, o bien,<br> observar los resultados obtenidos.</p></div></div>
+
+    <a href="descriptivo.html" class="hero-btn2">Tablero Descriptivo</a>
+    <a href="tendencias.html" class="hero-btn2">Tablero Tendencias</a>
+    <a href="resultados.html" class="hero-btn2">Resultados</a>
+    
+</section>
+
+ 
+
+<!---------------footer---------------->
+    
+<section class="footer">
+    
+    <p>®/TM © 2022 Whirlpool Corporation. All rights reserved.</p>
+
+</section>
+
+    
+<!-------JavaScript for Toggle Menu-------->
+<script>
+    var navLinks= document.getElementById("navLinks");
+    
+    funtion showMenu(){
+        navLinks.style.right="0";
+    }
+    funtion showMenu(){
+        navLinks.style.right="-200";
+    }
+</script>
+	
+    
+
+</body>
+</html>
