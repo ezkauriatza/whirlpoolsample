@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Calidad de refrigeradores</title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;900&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+</head>    
+    
+    
+<body>
+<section class="sub-header3">
+    <nav>
+        <a href="index.html"><img src="images/image.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="descriptivo.html">DASHBOARD DESCRIPTIVO</a></li>
+                    <li><a href="tendencias.html">DASHBOARD TENDENCIAS</a></li>
+                    <li><a href="resultados.html">RESULTADOS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Resultados del análisis</h1>
+
+</section>
+    
+ 
+<!---------------res1---------------->
+
+<section class="res">
+    
+    <div class="res-col" >
+        <div class="res-col2">
+            <h7>¿Dónde esta posicionado Whirlpool?</h7><p>A partir de los análisis se tiene un mejor panorama sobre las pruebas de calidad.</p></div></div>
+
+    
+</section>
+
+    
+    
+<!---------------temperaturas---------------->
+
+<section class="conclusiones">
+    <h3>Temperaturas en Whirlpool</h3>
+    <p>¿Qué se observa en general sobre las temperaturas?</p>
+    
+    <div class="energia2">
+        <div class="energia-col">
+            <h1>RC Average P1</h1>
+            <div class="energia-desc">
+                <div class="features-text">
+                    <p>Las datos están sesgados a la derecha, pero en general se encuentran dentro del rango correcto para RC (36-40ºF)</p>
+                </div>
+            </div>
+        </div>    
+        <div class="energia-col">
+            <h1>RC Average P2</h1>
+            <div class="energia-desc">
+                <div class="features-text">
+                    <p> En el histograma se observa que los datos se dividen en 2 partes, ambas estando fuera del rango establecido por el socio formador para el área de RC (36-40ºF).</p>
+                </div>
+            </div>
+        </div>
+        <div class="energia-col">
+            <div class="energia-desc">
+               <iframe src="Box_RC_P1.html" width=100% height=500></iframe> 
+            </div>
+        </div>
+        <div class="energia-col">
+            <div class="energia-desc">
+               <iframe src="Box_RC_P2.html" width=100% height=500></iframe> 
+            </div>
+        </div>
+    </div>
+    <div class="energia2">
+        <div class="energia-col">
+            <h1>FC Average P1</h1>
+            <div class="energia-desc">
+                <div class="features-text">
+                    <p>Las datos están sesgados a la derecha, pero en general se encuentran dentro del rango correcto para RC (36-40ºF)</p>
+                </div>
+            </div>
+        </div>    
+        <div class="energia-col">
+            <h1>FC Average P2</h1>
+            <div class="energia-desc">
+                <div class="features-text">
+                    <p> En este histograma los datos están divididos en 2 partes, una que queda dentro del rango establecido para FC y la otra justo afuera del mismo.</p>
+                </div>
+            </div>
+        </div>
+        <div class="energia-col">
+            <div class="energia-desc">
+               <iframe src="Box_FC_P1.html" width=100% height=500></iframe> 
+            </div>
+        </div>
+        <div class="energia-col">
+            <div class="energia-desc">
+               <iframe src="Box_FC_P2.html" width=100% height=500></iframe> 
+            </div>
+        </div>
+    </div>
+</section>
+
+<!---------------energia---------------->
+    
+<section class="energia">
+    <h4>Energía en Whirlpool</h4>
+    <p>¿Qué se observa en general sobre la energía?</p>
+
+    <div class="energia2">
+        <h1>¿Quá esta pasando?</h1>
+        <p>La mediana del consumo de energía no sobrepasa nunca la mediana del target por familia, esto significa que en general el consumo de energía por familia es el adecuado. Las familias 4W3G90 y 5w3n80 tienen el consumo de energía muy cercano a su target, que es lo óptimo, pero vale la pena tener un mayor cuidado con estas para que no sobrepasen su target.</p>
+        
+    </div>
+    
+    <div class="energia2">
+        <div class="energia-img">
+            <iframe src="Energia_prueba.html" width=1200 height=400></iframe>
+        </div> 
+    </div> 
+</section>
+    
+    
+    
+<!---------------cierre---------------->
+    
+    
+<section class="cierre">
+    
+    <div class="cierre-col" style="background-color: rgb(248, 249, 249); color: rgb(51, 51, 51); height: 50vh; text-align: center; display: flex; justify-content: center;"><div style="display: flex; flex-direction: column; place-content: center; color: rgb(51, 51, 51);"><h7>¿En que se resume lo anterior?</h7><h8> A partir del análisis descriptivo y de tendencias sobre las temperaturas de los refrigeradores se concluye lo siguiente.</h8></div></div>
+</section>
+
+<!---------------conclusiones---------------->
+
+    
+<section class="final">
+    <h3>Hallazgos</h3>
+    <p>Lo más importante.</p>
+        <div class="final2">
+            <div class="final-col">
+                <p>En temperaturas, los refrigerantes R134 y R600 no muestran diferencia en el desempeño.</p>
+                
+                
+            </div>
+            <div class="final-col">
+                <p> En energía, R134 muestra ligeramente consumo más alto.</p>
+            </div>
+        </div> 
+        <div class="final2">
+                <div class="final-col">
+                    <p>El refrigerante R134 contamina más.</p>
+                </div>
+                <div class="final-col">
+                    <p>Plataforma Matrix muestra tener los resultados con temperaturas mas altas en tanto en RC average  como en FC average (en P1). En P2 es más similar.</p>
+                </div>
+            </div>   
+    
+</section>
+    
+    
+    
+<!---------------recomendaciones---------------->
+
+    
+<section class="recom">
+    <h3>Recomendaciones</h3>
+    <p>¿Qué es lo que sigue?</p>
+    
+    <div class="recom1">
+        <div class="recom1-col">
+            <h1>Enriquecer la base de datos</h1>
+                <ul><li>¿Para qué?</li></ul>
+                <p>Para tener mejor representación de la información sobre los patrones.</p>
+                
+                <ul><li>¿Cómo?</li></ul>
+                <p>Generar por más datos por medio de las pruebas de calidad.</p>
+        </div>
+        <div class="recom1-col">
+            <h1>Incluir más parámetros</h1>
+                <ul><li>¿Para qué?</li></ul>
+                <p>Para hacer más y mejores commparaciones con los datos.</p>
+                
+                <ul><li>¿Cómo?</li></ul>
+                <p><em>Ejemplo:</em> Un nuevo parámetro como flujo másico del refrigerante permitiría tener más parámetros para comparar como transferencia de calor y eficiencia del sistema de refrigeración. 
+</p>
+        </div>
+        <div class="recom1-col">
+            <h1>Subcategorizar</h1>
+                <ul><li>¿Para qué?</li></ul>
+                <p>Análisis más rápido y profundo.</p>
+                
+                <ul><li>¿Cómo?</li></ul>
+                <p><em>Ejemplo:</em> Sub categorizar las familias con mayor número de pruebas (más datos) y generar análisis que puedan ser representativos.</p>
+        </div>
+        
+    </div>
+    
+</section>
+<!---------------footer---------------->
+    
+<section class="footer">
+    
+    <p>&reg; &trade; © 2022 Whirlpool Corporation. All rights reserved.</p>
+
+</section>
+    
+    
+    
+<!-------JavaScript for Toggle Menu-------->
+<script>
+    var navLinks= document.getElementById("navLinks");
+    
+    funtion showMenu(){
+        navLinks.style.right="0";
+    }
+    funtion showMenu(){
+        navLinks.style.right="-200";
+    }
+</script>
+	
+    
+
+</body>
+</html>
